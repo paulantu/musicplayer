@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Music Player</h1>
+    <ol class="play-list" id="play-list" type="i">
+        
+    </ol>
+    <div class="music-container play">
+        <div class="music-info">
+            <h4 id="title">song one</h4>
+            <div class="progress-container">
+                <div class="progress">
+
+                </div>
+            </div>
+        </div>
+
+        <audio src="music/sajna_barse.mp3" id="song"></audio>
+        <div class="img-container">
+            <img src="image/sajna_barse.jpg" alt="song-cover" id="cover">
+        </div>
+        <div class="navigation">
+            <button id="prev" class="action-button">
+                <i class="fas fa-backward"></i>
+            </button>
+
+            <button id="play" class="action-button action-play">
+                <i class="fas fa-play"></i>
+            </button>
+
+            <button id="next" class="action-button">
+                <i class="fas fa-forward"></i>
+            </button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
